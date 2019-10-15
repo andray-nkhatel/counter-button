@@ -7,9 +7,11 @@ btn.onclick = () => {
             zero += 1;
 
             data.textContent = zero;
+            btn2.textContent = "Now tap here to reduce!";
         }
 btn2.onclick = () => {
             zero -= 1;
 
             data.textContent = zero;
+            btn.textContent = "Tap back here to increase";
         }
